@@ -1,0 +1,98 @@
+*{
+    color: #f9faf8; 
+    font-family: 'Courier New', Courier, monospace;
+    /* border: 1px solid black ;  */
+    }
+
+    
+.flex-container{ 
+    display:flex;  
+    flex-direction: column;  
+    margin: 0 -5px;
+}
+
+.flex-container .row{ 
+    display:flex;  
+}
+
+.flex-container div{
+    flex: 1 1 auto; 
+    margin: 20px; 
+}
+
+.one{
+    background-color: #1f2937;
+    }
+
+.two{
+    background-color: #f9faf8;
+    align-items: center;
+}
+
+.box_row{ 
+    display:flex; 
+   }
+
+.item_box{
+    color: #1f2937;
+    border: 5px solid #3882f6; 
+    height: 100px;
+    width: 100px;
+    padding: 0px; 
+}
+
+.info{
+    font-size: 30px;
+    font-weight:bolder;
+    color: #1f2937; 
+    
+}
+
+.three{
+    background-color: #e5e7eb;
+    color: #1f2937;
+}
+
+.inspire, .quote{
+    color: #1f2937;
+    font-size: 20px;
+}
+.inspire{
+    font-style: italic ;
+}
+
+.quote{
+    font-weight: bold;  
+    text-align: right;
+}
+
+.four{
+    background-color: #3882f6; 
+    padding: 10px; 
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h1{ 
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+ h2{ 
+    font-size: 24px;
+}
+
+
+button{
+    background: #3882f6; 
+    font-family: 'Courier New';
+    font-size: 18px;
+
+}
+    
+    
