@@ -33,7 +33,7 @@
     }
 
 .two{
-    background-color: #f9faf8;
+    
     align-items: center;
 }
 
@@ -76,16 +76,23 @@
 
 .four{
     background-color: #3882f6; 
-    padding: 15px; 
+    padding: 5px; 
+    margin: 30%;
     border-radius: 12px;
-    width: 80%;
+    width: 70%;
 
 }
+.center_img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
 
+}
 .center{
     display: flex;
     align-items: center;
     justify-content: center;
+
 
 }
 
@@ -109,5 +116,13 @@ button{
     
 
 }
-    
+.stretch{
+    background: green; 
+    flex: 1 1 auto;
+}
+
+.fixed{
+    flex: 0 0 0;
+    width: 50px;
+}
     
